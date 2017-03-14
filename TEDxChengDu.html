@@ -5,32 +5,59 @@
     <title>TEDxChengDu</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-nav navbar-toggler-md fixed-top bg-faded">
+
+<!--<nav class="navbar navbar-toggleable-md navbar-light" style="background: white">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img href="#" src="tedxChengDu-logo.png" height ="40" width="192" ></a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>-->
+
+   <nav class="navbar navbar-light navbar-toggleable fixed-top" style="background: white">
         <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#"><img href="#" src="tedxChengDu-logo.png" height ="40" width="192" ></a>
-            <div id="navbarNav" class="collapse navbar-collapse ">
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#events_div">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#talks_div">Talks</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#news_div">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Private</a>
+                        <a class="nav-link" href="#about_div">About</a>
                     </li>
                 </ul>
             </div>
@@ -62,7 +89,7 @@
         <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-            <div class="row">
+            <div class="row" id="events_div">
                 <div class="col-md-12">
                     <div style="background-color: #c9302c; height: 1px" ></div>
                 </div>
@@ -91,7 +118,7 @@
 
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="talks_div">
                 <div class="col-md-12">
                     <div style="background-color: #c9302c; height: 1px" ></div>
                 </div>
@@ -130,7 +157,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" id="news_div">
                 <div class="col-md-12">
                     <div style="background-color: #c9302c; height: 1px" ></div>
                 </div>
@@ -163,7 +190,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" id="about_div">
                 <div class="col-md-12">
                     <div style="background-color: #c9302c; height: 1px" ></div>
                 </div>
@@ -184,6 +211,25 @@
                             , this is about us, this is about us, this is about us, this is about us, this is about us, this is about us, this is about us, this is about us, this is about us
                             , this is about us, this is about us, this is about us, this is about us.</p>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#" class="btn btn-danger" style="padding: 2px 8px 2px 8px">
+                        <i class="fa fa-twitter fa-2x fa-fw" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="btn btn-danger" style="padding: 2px 8px 2px 8px">
+                        <i class="fa fa-facebook fa-2x fa-fw" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="btn btn-danger" style="padding: 2px 8px 2px 8px">
+                        <i class="fa fa-github fa-2x fa-fw" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="btn btn-danger" style="padding: 2px 8px 2px 8px">
+                        <i class="fa fa-pinterest fa-2x fa-fw" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="btn btn-danger" style="padding: 2px 8px 2px 8px">
+                        <i class="fa fa-google-plus fa-2x fa-fw" aria-hidden="true"></i>
+                    </a>
                 </div>
             </div>
         </div>
